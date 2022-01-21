@@ -1,7 +1,9 @@
+import Footer from "../components/Footer/component"
+
 export default function Home() {
   return (
     <main>
-      <h1>SUPERCOURSES</h1>
+      <Footer />
     </main>
   )
 }

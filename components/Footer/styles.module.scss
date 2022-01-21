@@ -1,5 +1,67 @@
 .footer{
     width: 100%;
+    border-top: 1px solid var(--gray);
+
+    .subFooter{
+        background: var(--darkPurple);
+        width: 100%;
+        padding: 50px 10%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .resume{
+            margin-right: 30px;
+
+            .title{
+                font-size: 24px;
+                font-weight: bold;
+                color: var(--white);
+                margin-bottom: 10px;
+            }
+
+            .paragraph{
+                font-size: 14px;
+                color: var(--white);
+            }
+        }
+
+        .groupInfos{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .areaLinks{
+                min-width: 170px;
+                margin-right: 30px;
+
+                .title{
+                    font-size: 16px;
+                    color: var(--white);
+                    margin-bottom: 20px;
+                }
+
+                .list{
+                    list-style: none;
+
+                    .item{
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: var(--white);
+                        margin-bottom: 10px;
+
+                        &:last-child{
+                            margin: 0;
+                        }
+                    }
+                }
+
+                &:last-child{
+                    margin: 0;
+                }
+            }
+        }
+    }
 
     .finalBar{
         width: 100%;

@@ -1,6 +1,8 @@
 import styles from './styles.module.scss'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header (props){
     return(
@@ -18,7 +20,10 @@ export default function Header (props){
                 <Link href="https://google.com/" target="_blank">
                     <a className={styles.link}>Login</a>
                 </Link>
-                <button className={styles.button}>Join us</button>
+                <button className={styles.button}>
+                    <span>Join us</span>
+                    <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
+                </button>
             </div>
         </header>
     )

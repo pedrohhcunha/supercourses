@@ -1,0 +1,25 @@
+.section{
+    padding: 100px 10%;
+    background: var(--darkPurple);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .stat{
+        text-align: center;
+        min-width:  240px;
+
+        .data{
+            color: var(--purple);
+            font-weight: bold;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .description{
+            font-weight: bold;
+            font-size: 16px;
+            color: var(--white);
+        }
+    }
+}

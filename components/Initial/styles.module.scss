@@ -1,0 +1,47 @@
+.section{
+    width: 100%;
+    padding: 100px 10%;
+    background: linear-gradient(to right, var(--orange) 60%, var(--darkPurple) 60% 100%,);
+
+    .title{
+        color: var(--white);
+        margin-bottom: 40px;
+
+        strong{
+            font-size: 58px;
+            display: block;
+        }
+    }
+
+    .subTitle{
+        font-size: 18px;
+        color: var(--white);
+        line-height: 30px;
+        font-weight: normal;
+        width: 300px;
+    }
+
+    .areaButtons{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .button{
+            font-size: 14px;
+            font-weight: bold;
+            color: var(--white);
+            background: var(--purple);
+            border-radius: 5px;
+            padding: 0 40px;
+            border: none;
+            height: 52px;
+            margin-right: 10px;
+
+            &:last-child{
+                background: transparent;
+                border: 2px solid var(--white);
+            }
+        }
+    }
+}

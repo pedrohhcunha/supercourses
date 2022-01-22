@@ -4,6 +4,7 @@ import Stats from "../components/Stats/component"
 import Initial from "../components/Initial/component"
 import Header from "../components/Header/component"
 import LearnMore from "../components/LearnMore/component"
+import Plans from "../components/Plans/component"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Initial />
       <LearnMore />
       <Stats />
+      <Plans />
       <Newsletter />
       <Footer />
     </main>

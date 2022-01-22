@@ -6,7 +6,7 @@ export default function Initial(props){
     return(
         <section className={styles.section}>
             <div className={styles.contentArea}>
-                <h1 className={styles.title}><strong>Super courses</strong> for everything you need!</h1>
+                <h1 className={styles.title}><strong>Super Courses</strong> for everything you need!</h1>
                 <h2 className={styles.subTitle}>The best place to get knowledge through the internet</h2>
 
                 <div className={styles.areaButtons}>

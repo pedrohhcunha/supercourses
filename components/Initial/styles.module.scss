@@ -11,10 +11,19 @@
         .title{
             color: var(--white);
             margin-bottom: 40px;
+            transition: .3s all;
     
             strong{
                 font-size: 58px;
                 display: block;
+                transition: .3s all;
+            }
+
+            &:hover{
+
+                strong{
+                    transform: translateY(-10px);
+                }
             }
         }
     
@@ -43,10 +52,17 @@
                 height: 46px;
                 margin-right: 10px;
                 cursor: pointer;
+                transition: .3s all;
     
                 &:last-child{
                     background: transparent;
                     border: 2px solid var(--white);
+                }
+
+                &:hover{
+                    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.11);
+                    filter: brightness(.8);
+                    transform: translateY(-5px);
                 }
             }
         }

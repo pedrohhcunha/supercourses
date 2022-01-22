@@ -1,7 +1,7 @@
 import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import { useEffect, useState } from 'react';
 
 export default function Header (props){
@@ -36,6 +36,7 @@ export default function Header (props){
                     <FontAwesomeIcon icon={faArrowRight} className={styles.icon} />
                 </button>
             </div>
+            <FontAwesomeIcon icon={faBars} className={styles.menuIcon} />
         </header>
     )
 }

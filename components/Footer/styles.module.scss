@@ -141,4 +141,20 @@
             }
         }
     }
+    @media only screen and (max-width: 1024px){
+       .subFooter{
+           .groupInfos{
+                flex-wrap: wrap;
+
+                .areaLinks{
+                    min-width: auto;
+                    margin-right: 50px;
+
+                    &:last-child{
+                        margin: 0;
+                    }
+                }
+           }
+       } 
+    }
 }

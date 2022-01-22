@@ -90,4 +90,10 @@
             }
         }
     }
+    @media only screen and (max-width: 1024px){
+        background: var(--orange);
+        .rightArea{
+            display: none;
+        }
+    }
 }

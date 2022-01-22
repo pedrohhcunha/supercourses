@@ -23,6 +23,16 @@
             .paragraph{
                 font-size: 14px;
                 color: var(--white);
+                opacity: .8;
+
+                strong{
+                    font-weight: 700;
+    
+                    strong{
+                        font-weight: 900;
+                        color: var(--orange);
+                    }
+                }
             }
         }
 
@@ -49,9 +59,15 @@
                         font-weight: bold;
                         color: var(--white);
                         margin-bottom: 10px;
+                        transition: .3s all;
+                        opacity: .9;
 
                         &:last-child{
                             margin: 0;
+                        }
+
+                        &:hover{
+                            color: var(--purple);
                         }
                     }
                 }

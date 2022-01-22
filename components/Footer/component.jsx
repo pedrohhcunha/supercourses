@@ -12,7 +12,7 @@ export default function Footer(props){
             <div className={styles.subFooter}>
                 <div className={styles.resume}>
                     <h5 className={styles.title}>Super Courses</h5>
-                    <p className={styles.paragraph}>Lorem ipsum, repudiandae dolorem ab unde corporis vel recusandae, labore consequuntur. Sapiente libero quibusdam labore.</p>
+                    <p className={styles.paragraph}>Our platform helps you learn <strong>everything you need easily and efficiently.</strong>  Our plans allow you to achieve all your goals for a fair price.</p>
                 </div>
                 <div className={styles.groupInfos}>
                     <div className={styles.areaLinks}>

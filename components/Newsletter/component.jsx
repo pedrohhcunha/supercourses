@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
-export default function(props){
+export default function Newsletter(props){
 
     const [email, setEmail] = useState("");
     const [emailSended, setEmailSended] = useState(false);

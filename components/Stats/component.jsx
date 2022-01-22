@@ -1,6 +1,6 @@
 import styles from './styles.module.scss'
 
-export default function(props){
+export default function Stats(props){
     return(
         <section className={styles.section}>
             <div className={styles.stat}>

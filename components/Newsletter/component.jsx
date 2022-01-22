@@ -20,8 +20,7 @@ export default function(props){
             <h6 className={styles.subTitle}>Newsletter</h6>
             <h2 className={styles.title}>Get free content</h2>
             <p className={styles.description}>
-                Problems trying to resolve the conflict between <br />
-                the two major realms of Classical physics: Newtonian mechanics </p>
+            Receive weekly tips on how to study better to learn more </p>
 
             <form onSubmit={event => submitForm(event)} className={styles.areaInput}>
                 <input onChange={event => setEmail(event.target.value)} value={email} name="email" className={styles.input} placeholder="Your better email" type="email" />

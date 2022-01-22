@@ -37,8 +37,42 @@
         .link{
             font-size: 14px;
             font-weight: bold;
-            text-decoration: underline;
             color: var(--purple);
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            transition: .3s all;
+            position: relative;
+
+            .icon{
+                margin-left: 5px;
+                transition: .3s all;
+            }
+
+            &::after{
+                content: "";
+                position: absolute;
+                bottom: -10px;
+                left: 0;
+                height: 4px;
+                width: 0;
+                background-color: var(--purple25);
+                border-radius: 2px;
+                opacity: 0;
+                transition: .3s all;
+            }
+
+            &:hover{
+
+                .icon{
+                    margin-left: 10px;
+                }
+
+                &::after{
+                    width: 100px;
+                    opacity: 1;
+                }
+            }
         }
     }
 

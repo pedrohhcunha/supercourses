@@ -122,4 +122,13 @@
             }
         }
     }
+
+    @media only screen and (min-width: 1700px){
+        .subFooter{
+            padding: 50px 20%;
+        }
+        .finalBar{
+            padding: 0 20%;
+        }
+    }
 }

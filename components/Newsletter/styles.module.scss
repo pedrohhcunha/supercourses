@@ -100,4 +100,8 @@
             opacity: .8;
         }
     }
+
+    @media only screen and (min-width: 1700px){
+        padding: 100px 20%;
+    }
 }

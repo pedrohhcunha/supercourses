@@ -10,7 +10,9 @@ export default function LearnMore(props){
         <section className={styles.section}>
             <div className={styles.leftArea}>
                 <h2 className={styles.title}>Learn more with us</h2>
-                <p className={styles.paragraph}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis corporis odio cumque omnis illo commodi. Quam maiores id, libero eos iure autem provident! Necessitatibus ad id adipisci sit expedita ullam!</p>
+                <p className={styles.paragraph}>
+                    Our platform helps you learn <strong>everything you need <strong>easily and efficiently.</strong></strong>  Our plans allow you to achieve all your goals for a fair price.
+                </p>
                 <Link href="https://google.com/" target="_blank">
                     <a className={styles.link}>
                         <span>Learn more</span>

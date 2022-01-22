@@ -28,7 +28,6 @@
 
     .areaInput{
         width: 70%;
-        min-width: 450px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -103,5 +102,32 @@
 
     @media only screen and (min-width: 1700px){
         padding: 100px 20%;
+    }
+
+    @media only screen and (max-width: 768px){
+    
+        .title{
+            font-size: 30px;
+        }
+    
+        .description{
+            width: 100%;
+        }
+        
+        .areaInput{
+            width: 100%;
+
+            .button{
+
+                span{
+                    display: none;
+                }
+
+                .icon{
+
+                    margin: 0;
+                }
+            }
+        }
     }
 }

@@ -96,4 +96,32 @@
             display: none;
         }
     }
+
+    @media only screen and (max-width: 768px){        
+        .contentArea{
+
+            .subTitle{
+                width: 100%;
+            }
+        }
+    }
+    @media only screen and (max-width: 425px){        
+        .contentArea{
+
+            .subTitle{
+                width: 100%;
+            }
+
+            .areaButtons{
+
+                .button{
+
+                    &:last-child{
+
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
 }

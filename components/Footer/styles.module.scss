@@ -157,4 +157,35 @@
            }
        } 
     }
+
+    @media only screen and (max-width: 768px){
+
+        .subFooter{
+            padding: 50px 10%;
+
+            .groupInfos{
+                
+                .areaLinks{
+                    width: 50%;
+                    margin: 20px 0;
+                }
+            }
+        }
+        
+        .finalBar{
+            flex-wrap: wrap-reverse;
+            height: auto;
+            padding: 20px 0;
+
+            .copyright{
+                width: 100%;
+                text-align: center;
+                margin-top:  20px;
+            }
+
+            .socialMedias{
+                width: 100%;
+            }
+        }
+    }
 }

@@ -154,4 +154,21 @@
             }
         }
     }
+    @media only screen and (max-width: 768px){
+        
+        .titleArea{
+            .title{
+                font-size: 30px;
+            }
+            .paragraph{
+                width: 100%;
+            }
+        }
+        .cardsArea{
+
+            .card{
+                min-width: 100%;
+            }
+        }
+    }
 }

@@ -100,4 +100,17 @@
             display: none;
         }
     }
+    @media only screen and (max-width: 768px){
+
+        .leftArea{
+            
+            .title{
+                font-size: 30px;
+            }
+            .paragraph{
+                width: 100%;
+            }
+        }
+        
+    }
 }

@@ -79,12 +79,18 @@
             font-size: 14px;
             font-weight: bold;
             color: var(--gray);
+            transition: .3s all;
+            
+            &:hover{
+                filter: brightness(.8);
+            }
         }
 
         .socialMedias{
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: .3s all;
 
             .socialMedia{
                 width: 24px;
@@ -93,6 +99,10 @@
                 margin-left: 20px;
                 
                 color: var(--purple);
+
+                &:hover{
+                    filter: brightness(.8);
+                }
             }
         }
     }

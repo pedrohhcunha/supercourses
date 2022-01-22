@@ -5,10 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     .stat{
         text-align: center;
-        min-width:  240px;
+        min-width:  200px;
 
         .data{
             color: var(--purple);

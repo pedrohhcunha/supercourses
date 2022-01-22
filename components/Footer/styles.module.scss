@@ -131,4 +131,14 @@
             padding: 0 20%;
         }
     }
+
+    @media only screen and (max-width: 1250px){
+        .subFooter{
+            padding: 50px 10%;
+
+            .resume{
+                display: none;
+            }
+        }
+    }
 }

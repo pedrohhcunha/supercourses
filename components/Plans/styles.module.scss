@@ -36,11 +36,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
         width: 100%;
-        margin-top: 50px;
 
         .card{
             margin: 0 20px;
+            margin-top: 50px;
             padding: 20px;
             background-color: var(--white);
             border-radius: 5px;
